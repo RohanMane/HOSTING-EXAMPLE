@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T-SHIRT SHOPPING</title>
+    <script defer data-domain="rohanmane.github.io/tshirt" src="https://plausible.io/js/plausible.js"></script>
+
+    <style>
+
+        /* Universal Selector */
+        *{
+            background-color: bisque;
+        }
+
+        /* Element Selector */
+        h2 {
+            text-align: center;
+            background-color: aqua;
+            color: brown;
+        }
+
+        button{
+            margin-left: 20px;
+            width: 120px;
+        }
+
+        /* Class Selector */
+        .info {
+            color: crimson;
+        }
+
+        /* Id Selector */
+        #head{
+            color: darkblue;
+        }
+
+        /* Group Selector */
+        body input,textarea,button,select,option{
+            background-color: rgb(221, 226, 224);
+        }
+
+        /* Pseudo Selector */
+        button:hover{
+            color: grey;
+            background-color: honeydew;
+        }
+
+        button:active{
+            color: blue;
+            background-color: honeydew;
+        }
+
+    </style>
+</head>
+
+<body>
+    <h2>READY TO BUY SOME OF THE BEST T-SHIRTS AT EXTEMELY CHEAP PRICES</h2>
+
+    <div id="head">
+        <strong>JUST FILL THE DETAILS BELOW AND GET STARTED</strong>
+    </div>
+
+    <br><br>
+    <form action="noaction.php">
+        <div class="info">
+            TAGLINE ON T-SHIRT : <input type="text">
+        </div>
+        <br>
+
+        <div class="info">
+            COLOR OF T-SHIRT : <input type="text">
+        </div>
+        <br>
+
+        <div class="info">
+            SIZE ON T-SHIRT :
+            <select>
+                <option value="SMALL">SMALL</option>
+                <option value="LARGE">LARGE</option>
+                <option value="X-LARGE">X-LARGE</option>
+                <option value="XX-LARGE">XX-LARGE</option>
+            </select>
+        </div>
+        <br>
+
+        <div class="info">
+            QUANTITY OF T-SHIRT : <input type="number">
+        </div>
+        <br>
+
+        <div class="info">
+            DATE OF DELIVERY : <input type="date">
+        </div>
+        <br>
+
+        <div class="info">
+            NAME OF CUSTOMER : <input type="text">
+        </div>
+        <br>
+
+        <div class="info">
+            PHONE NO. OF CUSTOMER : <input type="phone" maxlength="10" placeholder="Maximum 10 digits">
+        </div>
+        <br>
+
+        <div class="info">
+            EMAIL-ID OF CUSTOMER : <input type="email" placeholder="name@example.com">
+        </div>
+        <br>
+
+        <div class="info">
+            ADDRESS OF DELIVERY : <br>
+            <textarea rows="10" cols="40"></textarea>
+        </div>
+        <br>
+        
+        <div class="info">
+            <a href="https://www.w3schools.com">Visit more</a>
+        </div>
+        <br>
+
+        <br>
+        <br>
+
+        <button type="reset">RESET NOW</button>
+        <button type="submit">SUBMIT NOW</button>
+
+    </form>
+
+</body>
+
+</html>
